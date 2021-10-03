@@ -1,3 +1,9 @@
+# --- custom gitignores ---
+
+build/*
+
+# --- github provided gitignores ---
+
 # Prerequisites
 *.d
 
