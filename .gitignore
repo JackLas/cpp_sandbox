@@ -1,6 +1,7 @@
 # --- custom gitignores ---
 
 build/*
+.vscode/*
 
 # --- github provided gitignores ---
 
