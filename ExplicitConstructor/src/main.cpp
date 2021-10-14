@@ -17,7 +17,7 @@ void foo_withExplicit(const ExplicitObj& obj)
     std::cout << obj;
 }
 
-int main(int argc, char** argv)
+int main([[maybe_unused]] int argc, [[maybe_unused]] char** argv)
 {
     foo(5); // NonExplicitObj will be created
 
